@@ -1,0 +1,50 @@
+html{
+    background-color: #D199FF;
+}
+body{
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+h1, h2, h3, header{
+    text-align: center;
+}
+section{
+    display: flex;
+}
+
+#partenaire{
+    flex: 40%;
+    border-style: double;
+    border-color: #F55B9D;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.article{
+    flex: 60%;
+    border-style: double;
+    border-color: #875BF5;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#video{
+    flex: 40%;
+    border-style: double;
+    border-color: #F55B9D;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.article *{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.article .textImage{
+    display: flex;
+}
+.article img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1em;
+}
